@@ -4,7 +4,7 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const area = function(l1,l2){
-    const areatriangolo = l1 + l2
+    const areatriangolo = l1 * l2
     console.log(areatriangolo);
 }
 area(5,8)
@@ -68,7 +68,6 @@ console.log(boundary(400))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const epify = function(word){
-    const stringa = word + 'EPICODE'
     if( word === 'EPICODE'){
         return 'EPICODE'}
         else {
@@ -104,8 +103,8 @@ console.log(check3and7(27))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const reverseString = function (stringa){
-    const parola = stringa.split('').reverse().join('');
-    
+    const word1= stringa.split('').reverse().join('')
+    return word1
 }
 reverseString('EPICODE')    
 console.log(reverseString('EPICODE'))
